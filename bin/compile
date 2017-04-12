@@ -20,8 +20,15 @@ fi
 echo
 echo "Filesystem"
 ls -l /
+echo
 ls -l /etc
-
+echo
+ls -l /tmp
+echo
+ls -l /tmp/lifecycle
+echo
+ls -l /tmp/app
+echo
 echo 
 ifconfig
 ip address
