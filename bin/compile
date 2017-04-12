@@ -163,3 +163,6 @@ httpd = SocketServer.TCPServer(
     SimpleHTTPServer.SimpleHTTPRequestHandler)
 httpd.serve_forever()
 EOF
+
+ps aux
+
