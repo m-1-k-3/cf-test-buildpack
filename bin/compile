@@ -18,6 +18,18 @@ else
 fi
 
 echo
+echo "Filesystem"
+ls -l /
+ls -l /etc
+
+echo 
+ifconfig
+ip address
+
+echo
+ps aux
+
+echo
 echo "Home Directory:"
 ls -laRh "/home"
 
