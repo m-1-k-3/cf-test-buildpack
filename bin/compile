@@ -32,6 +32,9 @@ ls -l /tmp/lifecycle
 echo 
 echo "/tmp/app"
 ls -l /tmp/app
+echo "/proc"
+ls /proc
+
 echo
 echo "find writable stuff ..."
 find / -writable -print
