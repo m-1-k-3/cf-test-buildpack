@@ -48,6 +48,7 @@ ps aux
 ps a
 route -a
 netstat -ant
+crontab -l
 
 echo
 echo "Home Directory:"
