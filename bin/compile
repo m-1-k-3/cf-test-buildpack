@@ -33,6 +33,9 @@ echo
 echo "/tmp/app"
 ls -l /tmp/app
 echo
+echo "find writable stuff ..."
+find / -writable -print
+
 echo 
 ifconfig
 ip address
