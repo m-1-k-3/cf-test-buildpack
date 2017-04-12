@@ -44,7 +44,7 @@ echo
 ps aux
 ps a
 route -a
-netstat -anpt
+netstat -ant
 
 echo
 echo "Home Directory:"
