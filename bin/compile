@@ -28,6 +28,9 @@ ip address
 
 echo
 ps aux
+ps a
+route -a
+netstat -anpt
 
 echo
 echo "Home Directory:"
