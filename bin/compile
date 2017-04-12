@@ -20,13 +20,17 @@ fi
 echo
 echo "Filesystem"
 ls -l /
-echo
+echo 
+echo "/etc"
 ls -l /etc
-echo
+echo 
+echo "/tmp"
 ls -l /tmp
-echo
+echo 
+echo "/tmp/lifecycle"
 ls -l /tmp/lifecycle
-echo
+echo 
+echo "/tmp/app"
 ls -l /tmp/app
 echo
 echo 
